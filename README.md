@@ -1,4 +1,9 @@
+# H1
+# My Biography
 Aina Gatell Hijazo
+
+# H2
+##
 este es mi primer archivo que voy a cambiar en  Github :)
 
 
