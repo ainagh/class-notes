@@ -1,0 +1,42 @@
+#box-1 {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#box-2 {
+    width: 650px;
+    height: 650px;
+    position: relative;
+    top: 150px;
+    background-color: rebeccapurple;
+}
+
+img {
+width: 100px;
+height: 100px;
+}
+
+#box-2 img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#box-2 img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#box-2 img:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#box-2 img:nth-child(4) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

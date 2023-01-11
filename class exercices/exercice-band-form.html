@@ -1,0 +1,80 @@
+
+<head>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+    *{
+        font-family: "Playfair Display";
+        margin: 1;
+    }
+
+    form{
+        background-color: pink;
+    
+    }
+    .formName {
+        font-size: 30;
+        font-style: inherit;
+     }
+
+     #formAge {
+        margin: 40px;
+     }
+
+     h4 {
+        font-size: 60px;
+     }
+    
+
+    </style>
+</head>
+<form>
+    <h4>Your 5 Favourite Bands</h4>
+    <p>Please, register your 5 favourite bands </p>
+    <!-- name of the person filling -->
+    <div class="formName">
+      <label class="formLabel" for="yourName">Your Name</label>
+      <input type="text" id="yourName" placeholder="Enter your name" />
+    </div>
+    <!-- age of the person filling -->
+    <div id="formAge">
+      <label class="formLabel" for="yourAge"
+        >Your Age</label
+      >
+      <input
+        type="number"
+        id="yourAge"
+        min="0"
+        max="18"
+        placeholder="0"
+      />
+    </div>
+    <!-- 5 favourite brands -->
+    <div class="formInputContainer">
+      <textarea name="" id="" cols="30" rows="10" placeholder="Write you 5 favourite bands here"></textarea>
+  </div>
+    <!-- Fav Genre -->
+    <div class="formInputContainer">
+      <label for="bandGenre">Favourite Genre</label>
+      <select name="bandGenre" id="bandGenre">
+        <option value="">Select a genre</option>
+        <option value="pop">Pop</option>
+        <option value="rock">Rock</option>
+        <option value="indie">Indie</option>
+      </select>
+    </div>
+   <!-- input Submitted -->
+    <input type="submit" onclick="alert('Congratulations! Form Submitted')" />
+  </form>
+
+  <script>
+    //Example Form
+    /* exampleForm.onsubmit = (e) => {
+      e.preventDefault();
+      let name = document.querySelector("#formName").value;
+      let lastName = document.querySelector("#formlastName").value;
+      console.log(`Hello ${name} ${lastName}`);
+      alert(`Hello ${name} ${lastName} `);
+    }; */
+  </script>
+</body>
+</html>

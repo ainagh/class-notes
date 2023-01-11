@@ -1,0 +1,24 @@
+
+/* això fa que el cursor s'activi a color quan clico a sobre */
+h1:active {
+    color: fuchsia;
+    cursor: pointer;
+} 
+ 
+/*  això serveix per canviar-li el color: 
+h1:nth-child(1){
+    color: pink;
+} */
+
+/* perque li canvia el color a la segona */
+body p:first-of-type{
+    color: rebeccapurple;
+}
+
+body > p:first-of-type:hover {
+    color: greenyellow;
+}
+
+/* p:hover {
+    color: greenyellow;
+} */

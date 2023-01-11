@@ -1,0 +1,22 @@
+#Comments {
+    width: 250px;
+    background-color: rgb(25, 33, 41);
+    margin: auto;
+    border: rgb(67, 163, 230) solid 3px;
+    color: white;
+    padding: 20px;
+    /* line-height: 24px; */
+
+}
+
+.background{
+    width: 100vw;
+    background-color: rgb(25, 33, 41);
+    /* margin: 18px auto 0 auto */
+    padding: 50px 0;
+}
+
+.formLabel{
+    font-family: serif;
+    font-size: 18;
+}
