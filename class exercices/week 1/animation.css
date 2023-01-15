@@ -1,0 +1,36 @@
+#animation {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-name: WuTang;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes WuTang {
+    
+    0% {
+        width: 100px;
+        height: 100px;
+    }
+
+    25%, 
+    75%{
+        width: 200px;
+        height: 200px;
+        background-color: blueviolet;
+    }
+
+    50%,
+    100% {
+        width: 20px;
+        height: 20px;
+        background-color: brown;
+    }
+    
+}

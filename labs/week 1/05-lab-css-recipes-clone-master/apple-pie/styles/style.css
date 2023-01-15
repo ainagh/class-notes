@@ -7,13 +7,19 @@ body {
 }
 
 #box-1 {
-    height: 600px;
+    height: 800px;
     background-image: url("../images/apple-pie.jpg");
     background-size: cover;
     color: #fafafa;
     display: flex;
     align-items: center;
+    /* x-axis */
     justify-content: center;
+    /* y-axis */
+    margin-left: 50px;
+    margin-right: 50px;
+    /* com que encara no haviem fet el FLEX, això és el que hauriem de fer: background-position: center center;
+    background-repeat: no-repeat; */
 }
 
 h1{
@@ -27,13 +33,15 @@ h1{
     display: block; */
     text-align: center;
     /* padding: 30px 70px */
+    font-size: larger;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+   /*  també es pot posar margin: 0 auto;, que vol dir 0 a dalt i abaix i auro dreta esq */
+    width: 400px;
 }
 
 #box-3 {
@@ -57,13 +65,19 @@ ol {
   ol > li::before {
     /*3. Set the new style for the list markers */
     content: counter(listcounter) ")";
+    
   }
 
   ul {
     list-style: none;
   }
   
-  ul li:before {
+  /* ul li:before {
     content: '-';  
     padding-right: 5px;
+  }
+
+  tmb es pot fer  */
+  ul {
+    list-style-type: "-";
   }

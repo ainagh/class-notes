@@ -1,0 +1,42 @@
+@media (max-width: 576px) {
+    .band-1 {
+        display: block;
+    }
+
+    .band-2 {
+        display: none;
+    }
+
+    .band-3 {
+        display: none;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .band-1 {
+        display: none;
+    }
+
+    .band-2 {
+        display: block;
+    }
+
+    .band-3 {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) { 
+    .band-1 {
+        display: none;
+    }
+
+    .band-2 {
+        display: none;
+    }
+
+    .band-3 {
+        display: block;
+    }
+}
+

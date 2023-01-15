@@ -1,0 +1,27 @@
+*{
+    outline: red 1px solid
+}
+
+#ordenar {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: stretch;
+}
+
+img {
+    height: 150px;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+    ;
+   /*  flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: stretch;   */ 
+}

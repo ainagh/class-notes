@@ -1,0 +1,17 @@
+#grid1 {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 40px auto 40px;
+}
+
+.div1 {
+    background-color: pink;
+}
+
+.div2 {
+    background-color: lightgreen;
+}
+
+.div3 {
+    background-color: burlywood;
+}
