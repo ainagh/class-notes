@@ -31,10 +31,8 @@
 
         </div>
     </form>
-    
-
-
-
+    <!-- ---- SLOT QUE ESTÀ CONNECTAT A LA APP VUE A L'ETIQUETA DE FORMCONTAINER ---- -->
+    <button> <slot /></button>
 </div>
 
 </template>
@@ -44,7 +42,7 @@ import { ref, reactive } from "vue";
 
 const formInfo = reactive ({
     applicantName: "",
-    applicantAge: "",
+    applicantAge: 0,
     applicantDob: "",
 });
 
@@ -71,5 +69,12 @@ const handleSubmit = () => {
 // approach 1 - guardan cada dato en su variable propia name, age y dob
 // approach 2 - guardan los 3 datos dentro de 1 variable que sea un objeto :)
 </script>
+
 <!-- CSS HERE -->
-<style scoped></style>
+<style scoped>
+
+#form-info {
+    
+}
+
+</style>

@@ -1,13 +1,16 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import ConditionalDirectiveExercice from './components/ConditionalDirectiveExercice.vue';
-import WatcherComponent from './components/WatcherComponent.vue';
-
+import ParentComponent from './components/ParentComponent.vue';
 </script>
 
 <template>
+  <header>
+   <ParentComponent/>
+  </header>
 
- <WatcherComponent/>
+  <main>
+  
+  </main>
 </template>
 
 <style scoped>
